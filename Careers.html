@@ -33,12 +33,26 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: UpConstruction - v1.3.0
-  * Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <style>
+    .btn-submit {
+        background-color: #f7b500;
+        color: white;
+        padding: 12px 30px;
+        border: none;
+        border-radius: 6px;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      
+      .btn-submit:hover {
+        background-color: #d99a00;
+      }
+      
+  </style>
+
+ 
 </head>
 
 <body>
@@ -58,14 +72,14 @@
   
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="index.html" >Home</a></li>
           <li><a href="about.html">About</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="projects.html">Projects</a></li>
           <li><a href="blog.html">Blog</a></li>
           <!-- Optional Dropdown for future use -->
           
-          <li class="dropdown"><a href="#"><span>Explore</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
+          <li class="dropdown"><a href="#" class="active"><span>Explore</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
               <li><a href="Compliance.html">Compliance</a></li>
               <li><a href="Careers.html">Careers</a></li>
@@ -86,173 +100,73 @@
     <div class="breadcrumbs d-flex align-items-center" style="background-image: url('assets/img/breadcrumbs-bg.jpg');">
       <div class="container position-relative d-flex flex-column align-items-center" data-aos="fade">
 
-        <h2>Blog</h2>
+        <h2>Careers</h2>
         <ol>
           <li><a href="index.html">Home</a></li>
-          <li>Blog</li>
+          <li>Careers</li>
         </ol>
 
       </div>
     </div><!-- End Breadcrumbs -->
 
-    <!-- ======= Blog Section ======= -->
-    <section id="blog" class="blog">
-      <div class="container" data-aos="fade-up" data-aos-delay="100">
-
-        <div class="row gy-4 posts-list">
-
-          <!-- Post 1 -->
-          <div class="col-xl-4 col-md-6">
-            <div class="post-item position-relative h-100">
-              <div class="overflow-hidden post-img position-relative">
-                <img src="assets/img/blog/blog-1.jpg" class="img-fluid" alt="">
-                <span class="post-date">March 02</span>
-              </div>
-              <div class="post-content d-flex flex-column">
-                <h3 class="post-title">SNSCL Secures Multi-Year Base Support Contract with MOD</h3>
-                <div class="meta d-flex align-items-center">
-                  <div class="d-flex align-items-center"><i class="bi bi-person"></i> <span class="ps-2">Admin</span></div>
-                  <span class="px-3 text-black-50">/</span>
-                  <div class="d-flex align-items-center"><i class="bi bi-folder2"></i> <span class="ps-2">Contracts</span></div>
-                </div>
-                <p>
-                  The Ministry of Defense awarded SNSCL a new contract for multi-year facility and operational support across Northern Command bases.
-                </p>
-                <hr>
-                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Post 2 -->
-          <div class="col-xl-4 col-md-6">
-            <div class="post-item position-relative h-100">
-              <div class="overflow-hidden post-img position-relative">
-                <img src="assets/img/blog/blog-2.jpg" class="img-fluid" alt="">
-                <span class="post-date">February 10</span>
-              </div>
-              <div class="post-content d-flex flex-column">
-                <h3 class="post-title">SNSCL Renews ISO 9001, 14001 & 45001 Certifications</h3>
-                <div class="meta d-flex align-items-center">
-                  <div class="d-flex align-items-center"><i class="bi bi-person"></i> <span class="ps-2">Quality Team</span></div>
-                  <span class="px-3 text-black-50">/</span>
-                  <div class="d-flex align-items-center"><i class="bi bi-folder2"></i> <span class="ps-2">Certifications</span></div>
-                </div>
-                <p>
-                  Successfully passed external audits with zero non-conformities, maintaining international standards in safety, quality, and environment.
-                </p>
-                <hr>
-                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Post 3 -->
-          <div class="col-xl-4 col-md-6">
-            <div class="post-item position-relative h-100">
-              <div class="overflow-hidden post-img position-relative">
-                <img src="assets/img/blog/blog-3.jpg" class="img-fluid" alt="">
-                <span class="post-date">January 24</span>
-              </div>
-              <div class="post-content d-flex flex-column">
-                <h3 class="post-title">Completion of DFAC & Billeting Facilities at PSAB</h3>
-                <div class="meta d-flex align-items-center">
-                  <div class="d-flex align-items-center"><i class="bi bi-person"></i> <span class="ps-2">Projects Unit</span></div>
-                  <span class="px-3 text-black-50">/</span>
-                  <div class="d-flex align-items-center"><i class="bi bi-folder2"></i> <span class="ps-2">Engineering</span></div>
-                </div>
-                <p>
-                  Full design-build completion of dining and accommodation infrastructure at Prince Sultan Air Base within 6 months of mobilization.
-                </p>
-                <hr>
-                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Post 4 -->
-          <div class="col-xl-4 col-md-6">
-            <div class="post-item position-relative h-100">
-              <div class="overflow-hidden post-img position-relative">
-                <img src="assets/img/blog/blog-4.jpg" class="img-fluid" alt="">
-                <span class="post-date">December 05</span>
-              </div>
-              <div class="post-content d-flex flex-column">
-                <h3 class="post-title">SNSCL Signs Strategic MOU with Naval Shipyards Partner</h3>
-                <div class="meta d-flex align-items-center">
-                  <div class="d-flex align-items-center"><i class="bi bi-person"></i> <span class="ps-2">Strategy Dept</span></div>
-                  <span class="px-3 text-black-50">/</span>
-                  <div class="d-flex align-items-center"><i class="bi bi-folder2"></i> <span class="ps-2">Partnerships</span></div>
-                </div>
-                <p>
-                  Agreement signed to expand maritime support, refit, and logistics operations across east coast naval bases and shipyards.
-                </p>
-                <hr>
-                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Post 5 -->
-          <div class="col-xl-4 col-md-6">
-            <div class="post-item position-relative h-100">
-              <div class="overflow-hidden post-img position-relative">
-                <img src="assets/img/blog/blog-5.jpg" class="img-fluid" alt="">
-                <span class="post-date">October 18</span>
-              </div>
-              <div class="post-content d-flex flex-column">
-                <h3 class="post-title">New Camp Setup in Northern Border Region Delivered</h3>
-                <div class="meta d-flex align-items-center">
-                  <div class="d-flex align-items-center"><i class="bi bi-person"></i> <span class="ps-2">Field Ops</span></div>
-                  <span class="px-3 text-black-50">/</span>
-                  <div class="d-flex align-items-center"><i class="bi bi-folder2"></i> <span class="ps-2">Operations</span></div>
-                </div>
-                <p>
-                  Rapid deployment and setup of containerized accommodations, kitchen, and water systems for deployed military teams in the northern border area.
-                </p>
-                <hr>
-                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Post 6 -->
-          <div class="col-xl-4 col-md-6">
-            <div class="post-item position-relative h-100">
-              <div class="overflow-hidden post-img position-relative">
-                <img src="assets/img/blog/blog-6.jpg" class="img-fluid" alt="">
-                <span class="post-date">September 03</span>
-              </div>
-              <div class="post-content d-flex flex-column">
-                <h3 class="post-title">SNSCL Expands Procurement Network to Europe</h3>
-                <div class="meta d-flex align-items-center">
-                  <div class="d-flex align-items-center"><i class="bi bi-person"></i> <span class="ps-2">Supply Chain</span></div>
-                  <span class="px-3 text-black-50">/</span>
-                  <div class="d-flex align-items-center"><i class="bi bi-folder2"></i> <span class="ps-2">Logistics</span></div>
-                </div>
-                <p>
-                  European suppliers added to SNSCL’s global network for sourcing tools, vehicles, and mission-specific equipment for KSA operations.
-                </p>
-                <hr>
-                <a href="blog-details.html" class="readmore stretched-link"><span>Read More</span><i class="bi bi-arrow-right"></i></a>
-              </div>
-            </div>
-          </div>
-
-        </div><!-- End blog posts list -->
-
-        <!-- Optional Pagination -->
-        <div class="blog-pagination">
-          <ul class="justify-content-center">
-            <li><a href="#">1</a></li>
-            <li class="active"><a href="#">2</a></li>
-            <li><a href="#">3</a></li>
-          </ul>
+    <!-- ======================= CAREERS PAGE ======================= -->
+    <section id="careers" class="careers">
+        <div class="container" data-aos="fade-up">
+    
+        <div class="section-header">
+            <h2>Careers</h2>
+            <p>Join a team committed to excellence, innovation, and service.</p>
         </div>
+    
+        <!-- Join Us Form Intro -->
+        <div class="careers-block">
+            <h3>Join Us</h3>
+            <p>Looking to build a fulfilling career with SNSCL? Submit your details below and be part of a mission-driven organization.</p>
+        </div>
+    
+        <!-- Application Form (Structure Only) -->
+        <form action="#" method="post" class="php-email-form">
+            <div class="row gy-3">
+            <div class="col-md-6">
+                <input type="text" name="first_name" class="form-control" placeholder="First Name" required>
+            </div>
+            <div class="col-md-6">
+                <input type="text" name="last_name" class="form-control" placeholder="Last Name" required>
+            </div>
+            <div class="col-md-6">
+                <input type="email" name="email" class="form-control" placeholder="Email" required>
+            </div>
+            <div class="col-md-6">
+                <input type="text" name="phone" class="form-control" placeholder="Phone Number" required>
+            </div>
+            <div class="col-md-12">
+                <input type="text" name="address" class="form-control" placeholder="Address" required>
+            </div>
+            <div class="col-md-6">
+                <input type="text" name="education" class="form-control" placeholder="Education Degree/Diploma" required>
+            </div>
+            <div class="col-md-6">
+                <input type="text" name="passing_year" class="form-control" placeholder="Year of Passing" required>
+            </div>
+            <!-- Previous Experience Placeholder -->
+            <div class="col-md-12">
+                <textarea name="experience" class="form-control" rows="4" placeholder="Work Experience / Previous Companies"></textarea>
+            </div>
+            <div class="col-md-12">
+                <textarea name="cover_letter" class="form-control" rows="4" placeholder="Cover Letter"></textarea>
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn-submit">Submit</button>
 
-      </div>
+            </div>
+            </div>
+        </form>
+    
+        
+    
+        </div>
     </section>
-    <!-- End Blog Section -->
+  
 
 
   </main><!-- End #main -->

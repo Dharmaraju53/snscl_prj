@@ -14,6 +14,33 @@
   <link href="assets/img/favicon.png" rel="shortcut icon">
 
   <link href="assets/img/favicon.png" rel="apple-touch-icon">
+  
+  <style>
+    #clients .client-box {
+      background: #fff;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+      transition: all 0.3s ease-in-out;
+      height: 100%;
+    }
+    
+    #clients .client-box:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+    }
+    
+    #clients .client-box img {
+      max-height: 60px;
+      object-fit: contain;
+    }
+    
+    #clients p {
+      font-size: 14px;
+      color: #444;
+    }
+    
+  </style>
 
   <!-- Google Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,12 +60,7 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/main.css" rel="stylesheet">
 
-  <!-- =======================================================
-  * Template Name: UpConstruction - v1.3.0
-  * Template URL: https://bootstrapmade.com/upconstruction-bootstrap-construction-website-template/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  
 </head>
 
 <body>
@@ -58,8 +80,8 @@
   
       <nav id="navbar" class="navbar">
         <ul>
-          <li><a href="index.html" class="active">Home</a></li>
-          <li><a href="about.html">About</a></li>
+          <li><a href="index.html" >Home</a></li>
+          <li><a href="about.html" class="active">About</a></li>
           <li><a href="services.html">Services</a></li>
           <li><a href="projects.html">Projects</a></li>
           <li><a href="blog.html">Blog</a></li>
@@ -67,8 +89,8 @@
           
           <li class="dropdown"><a href="#"><span>More</span> <i class="bi bi-chevron-down dropdown-indicator"></i></a>
             <ul>
-              <li><a href="#">Certifications</a></li>
-              <li><a href="#">Careers</a></li>
+              <li><a href="Compliance.html">Compliance</a></li>
+              <li><a href="Careers.html">Careers</a></li>
             </ul>
           </li>
          
@@ -96,500 +118,395 @@
     </div><!-- End Breadcrumbs -->
 
     <!-- ======= About Section ======= -->
-    <section id="about" class="about">
-      <div class="container" data-aos="fade-up">
+<section id="about" class="py-5 about">
+  <div class="container" data-aos="fade-up">
 
-        <div class="row position-relative">
+    <div class="row align-items-center justify-content-between gy-5">
+      
+      <!-- Left: Image -->
+      <div class="col-lg-6">
+        <img src="assets/img/about.jpg" alt="SNSCL Our Story" class="rounded shadow img-fluid">
+      </div>
 
-          <div class="col-lg-7 about-img" style="background-image: url(assets/img/about.jpg);"></div>
-
-          <div class="col-lg-7">
-            <h2>Our Story</h2>
-            <div class="our-story">
-             
-              <p>With more than 30 years of experience in delivering highly complex projects, we operate with the highest levels of quality, safety and technical expertise, integrate with clients and local supply chains.</p>
-            
-              <p>SNS is among the most diversified companies in the Kingdom and have expanded to meet the different challenges and requirements of clients, and since then have been a leading player of executing projects in the fields of construction, operations and maintenance, professional support services, and telecommunications and electronics in the Kingdom, fulfilling national and public missions alongside their commercial activity.</p>
-              <p>Today SNS is involved in large-scale projects in the Kingdom and abroad, and have proven achievements in the international project development, SNS clients are more than projects, our reputation hinges on the continued satisfaction of each one according to the wide range of market fields SNS specifying itself within that include areas of technologies focused over engineering projects execution.</p>
-             
-            </div>
-          </div>
-
+      <!-- Right: Content -->
+      <div class="col-lg-6">
+        <div class="mb-4 section-title">
+          <h2 class="fw-bold text-uppercase">Our Story</h2>
         </div>
 
-      </div>
-    </section>
-    <!-- End About Section -->
+        <div class="story-content">
+          <p><strong>With over 35 years of experience</strong> in delivering highly complex, mission-critical projects, Saudi Naval Support Company (SNSCL) has become a trusted name in defense and commercial sectors across the Kingdom of Saudi Arabia.</p>
 
-    <!-- ======= Stats Counter Section ======= -->
-    <div class="section-header">
-      <h2>OUR CLIENTS</h2>
+          <p>We operate with the highest standards of quality, safety, and technical excellence — integrating seamlessly with clients and local supply chains. Our expertise spans construction, operations & maintenance, facility management, logistics, and telecommunications.</p>
+
+          <p>Over the decades, SNSCL has grown into one of the most diversified support service providers in the Kingdom, fulfilling national and public missions while enabling our clients to achieve operational excellence.</p>
+
+          <p>Today, SNSCL leads in large-scale projects both locally and internationally. Our success is driven by client satisfaction and our ability to adapt to a wide spectrum of technical and engineering challenges.</p>
+        </div>
+      </div>
       
     </div>
-    <section id="stats-counter" class="stats-counter section-bg">
-      <div class="container">
 
-        <div class="row gy-4">
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <img class="sppb-img-responsive" src="https://snscl.com/images/2022/07/26/seapa.png" alt="This image for Image Layouts addon" loading="lazy">
-              <div>
-                
-                <p>SEAPA <br>
-                  Saudi Ports Authority</p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <img class="sppb-img-responsive" src="https://snscl.com/images/2022/07/26/rsnf.png" alt="This image for Image Layouts addon" loading="lazy">
-              <div>
-                
-                 
-                <p>RSNF <br>
-                  Royal Saudi Navy</p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <img class="sppb-img-responsive" src="https://snscl.com/images/2022/07/26/mwe.png" alt="This image for Image Layouts addon" loading="lazy">
-              <div>
-                
-                <p>Ministry of Water & Electricity</p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <img class="sppb-img-responsive" src="https://snscl.com/images/2022/07/26/mci.png" alt="This image for Image Layouts addon" loading="lazy">
-              <div>
-                
-                <p>MCI <br>
-                  Ministry of Culture & Information
-                </p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <img class="sppb-img-responsive" src="https://snscl.com/images/2022/07/30/gaca-new-carousel.png" alt="This image for Image Layouts addon" loading="lazy">
-              <div>
-                
-                <p> GACA <br>
-                 General Authority of Civil Aviation
-                </p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <img class="sppb-img-responsive" src="https://snscl.com/images/2022/07/27/usmtm.png" alt="This image for Image Layouts addon" loading="lazy">
-              <div>
-                
-                <p>USMTM  <br>
-                  US Military Trng. Mission
-                </p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <img class="sppb-img-responsive" src="https://snscl.com/images/2022/07/30/kaia---jeddah-carousel.png" alt="This image for Image Layouts addon" loading="lazy">
-              <div>
-                
-                <p>King Abdulaziz International Airport
-                </p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <img class="sppb-img-responsive" src="https://snscl.com/images/2022/07/30/kkia---riyadh-carousel.png" alt="This image for Image Layouts addon" loading="lazy">
-              <div>
-                
-                <p>King Khalid International Airport
-                </p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <img class="sppb-img-responsive" src="https://snscl.com/images/2022/07/30/kfia---dammam-carousel.png" alt="This image for Image Layouts addon" loading="lazy">
-              <div>
-                
-                <p>King Fahad International Airport
-                </p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <img class="sppb-img-responsive" src="https://snscl.com/images/2022/07/30/psab-carousel.png" alt="This image for Image Layouts addon" loading="lazy">
-              <div>
-                
-                <p>PSAB <br> Prince Sultan Airbase AlKharj
-                </p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <img class="sppb-img-responsive" src="https://snscl.com/images/2022/07/30/sba-logoo-carousel.jpg" alt="This image for Image Layouts addon" loading="lazy">
-              <div>
-                
-                <p>SBA <br> Saudi Broadcasting Authority
-                </p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <img class="sppb-img-responsive" src="https://snscl.com/images/2022/07/31/mewa-car.jpg" alt="This image for Image Layouts addon" loading="lazy">
-              <div>
-                
-                <p>MEWA <br> Ministry of Environment
-                </p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
-
-          <div class="col-lg-3 col-md-6">
-            <div class="stats-item d-flex align-items-center w-100 h-100">
-              <img class="sppb-img-responsive" src="https://snscl.com/images/2022/07/27/royalcom.png" alt="This image for Image Layouts addon" loading="lazy">
-              <div>
-                
-                <p>Royal commission Yanbu
-                </p>
-              </div>
-            </div>
-          </div><!-- End Stats Item -->
+  </div>
+</section>
+<!-- End About Section -->
 
 
+    
+    
+    <!-- ======= Our Clients Section ======= -->
+<section id="clients" class="py-5 clients section-bg">
+  <div class="container">
+
+    <div class="mb-5 text-center section-header">
+      <h2 class="fw-bold text-uppercase">
+        <span style="border-bottom: 2px solid #f7b500;">Our Clients</span>
+      </h2>
+    </div>
+
+    <div class="row gy-4 justify-content-center">
+      
+      <div class="col-lg-2 col-md-3 col-6 d-flex align-items-center justify-content-center">
+        <div class="text-center client-box">
+          <img src="https://snscl.com/images/2022/07/26/seapa.png" class="mb-2 img-fluid" alt="SEAPA" loading="lazy">
+          <p class="m-0 small">SEAPA<br><span class="text-muted">Saudi Ports Authority</span></p>
         </div>
-
       </div>
-    </section><!-- End Stats Counter Section -->
 
-    <!-- ======= Alt Services Section ======= -->
-    <section id="alt-services" class="alt-services">
-      <div class="container" data-aos="fade-up">
+      <div class="col-lg-2 col-md-3 col-6 d-flex align-items-center justify-content-center">
+        <div class="text-center client-box">
+          <img src="https://snscl.com/images/2022/07/26/rsnf.png" class="mb-2 img-fluid" alt="RSNF" loading="lazy">
+          <p class="m-0 small">RSNF<br><span class="text-muted">Royal Saudi Navy</span></p>
+        </div>
+      </div>
 
-        <div class="row justify-content-around gy-4">
-          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
-            <div style="
-              position: relative;
-              width: 100%;
-              padding-top: 56.25%; /* 16:9 Aspect Ratio */
-              background-image: url('assets/img/alt-services.jpg');
-              background-size: cover;
-              background-position: center;
-            "></div>
-          </div>
+      <div class="col-lg-2 col-md-3 col-6 d-flex align-items-center justify-content-center">
+        <div class="text-center client-box">
+          <img src="https://snscl.com/images/2022/07/26/mwe.png" class="mb-2 img-fluid" alt="Ministry of Water & Electricity" loading="lazy">
+          <p class="m-0 small">Ministry of Water & Electricity</p>
+        </div>
+      </div>
 
-          <div class="col-lg-5 d-flex flex-column justify-content-center">
-            <h3>Governance Structure</p>
+      <div class="col-lg-2 col-md-3 col-6 d-flex align-items-center justify-content-center">
+        <div class="text-center client-box">
+          <img src="https://snscl.com/images/2022/07/26/mci.png" class="mb-2 img-fluid" alt="MCI" loading="lazy">
+          <p class="m-0 small">MCI<br><span class="text-muted">Ministry of Culture & Information</span></p>
+        </div>
+      </div>
 
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
-              <i class="flex-shrink-0 bi bi-easel"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Shareholder Empowerment</a></h4>
-                <p>The structure begins with General Meetings of Shareholders, which include both Annual and Extraordinary General Meetings. Shareholders play a key role in electing the Board of Directors and shaping company direction.</p>
-              </div>
-            </div><!-- End Icon Box -->
+      <div class="col-lg-2 col-md-3 col-6 d-flex align-items-center justify-content-center">
+        <div class="text-center client-box">
+          <img src="https://snscl.com/images/2022/07/30/gaca-new-carousel.png" class="mb-2 img-fluid" alt="GACA" loading="lazy">
+          <p class="m-0 small">GACA<br><span class="text-muted">Civil Aviation Authority</span></p>
+        </div>
+      </div>
 
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
-              <i class="flex-shrink-0 bi bi-patch-check"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Transparent Leadership Oversight</a></h4>
-                <p>The Board of Directors, elected by shareholders, ensures strategic oversight and long-term value creation. The Chairman leads the board and oversees all committee activities.</p>
-              </div>
-            </div><!-- End Icon Box -->
+      <div class="col-lg-2 col-md-3 col-6 d-flex align-items-center justify-content-center">
+        <div class="text-center client-box">
+          <img src="https://snscl.com/images/2022/07/27/usmtm.png" class="mb-2 img-fluid" alt="USMTM" loading="lazy">
+          <p class="m-0 small">USMTM<br><span class="text-muted">US Military Training Mission</span></p>
+        </div>
+      </div>
 
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
-              <i class="flex-shrink-0 bi bi-brightness-high"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Commitment to Ethical Standards</a></h4>
-                <p>The presence of an active Ethics Committee reinforces the company’s dedication to ethical business conduct and compliance.</p>
-              </div>
-            </div><!-- End Icon Box -->
+      <div class="col-lg-2 col-md-3 col-6 d-flex align-items-center justify-content-center">
+        <div class="text-center client-box">
+          <img src="https://snscl.com/images/2022/07/30/kaia---jeddah-carousel.png" class="mb-2 img-fluid" alt="KAIA" loading="lazy">
+          <p class="m-0 small">King Abdulaziz Int’l Airport</p>
+        </div>
+      </div>
 
-         
+      <div class="col-lg-2 col-md-3 col-6 d-flex align-items-center justify-content-center">
+        <div class="text-center client-box">
+          <img src="https://snscl.com/images/2022/07/30/kkia---riyadh-carousel.png" class="mb-2 img-fluid" alt="KKIA" loading="lazy">
+          <p class="m-0 small">King Khalid Int’l Airport</p>
+        </div>
+      </div>
 
+      
+
+      <div class="col-lg-2 col-md-3 col-6 d-flex align-items-center justify-content-center">
+        <div class="text-center client-box">
+          <img src="https://snscl.com/images/2022/07/30/psab-carousel.png" class="mb-2 img-fluid" alt="PSAB" loading="lazy">
+          <p class="m-0 small">PSAB<br><span class="text-muted">Prince Sultan Airbase</span></p>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-md-3 col-6 d-flex align-items-center justify-content-center">
+        <div class="text-center client-box">
+          <img src="https://snscl.com/images/2022/07/30/sba-logoo-carousel.jpg" class="mb-2 img-fluid" alt="SBA" loading="lazy">
+          <p class="m-0 small">SBA<br><span class="text-muted">Broadcasting Authority</span></p>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-md-3 col-6 d-flex align-items-center justify-content-center">
+        <div class="text-center client-box">
+          <img src="https://snscl.com/images/2022/07/31/mewa-car.jpg" class="mb-2 img-fluid" alt="MEWA" loading="lazy">
+          <p class="m-0 small">MEWA<br><span class="text-muted">Ministry of Environment</span></p>
+        </div>
+      </div>
+
+      <div class="col-lg-2 col-md-3 col-6 d-flex align-items-center justify-content-center">
+        <div class="text-center client-box">
+          <img src="https://snscl.com/images/2022/07/27/royalcom.png" class="mb-2 img-fluid" alt="Royal Commission" loading="lazy">
+          <p class="m-0 small">Royal Commission<br><span class="text-muted">Yanbu</span></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- End Our Clients Section -->
+
+
+<!-- ======= Governance Structure Section ======= -->
+<section id="governance" class="py-5 alt-services section-bg">
+  <div class="container" data-aos="fade-up">
+
+    <div class="row justify-content-between gy-4 align-items-center">
+      
+      <!-- Image Side -->
+      <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
+        <div class="overflow-hidden border rounded shadow-sm governance-image-wrapper">
+          <img src="assets/img/alt-services.jpg" alt="SNS Governance Structure" class="img-fluid w-100 h-100" style="object-fit: cover;">
+        </div>
+      </div>
+
+      <!-- Content Side -->
+      <div class="col-lg-5 d-flex flex-column justify-content-center">
+        <h3 class="mb-4 fw-bold">Governance Structure</h3>
+
+        <div class="mb-4 icon-box d-flex align-items-start" data-aos="fade-up" data-aos-delay="100">
+          <i class="flex-shrink-0 bi bi-easel fs-2 text-warning me-3"></i>
+          <div>
+            <h5 class="mb-1 fw-bold">Shareholder Empowerment</h5>
+            <p class="mb-0">The structure begins with General Meetings of Shareholders, including both Annual and Extraordinary General Meetings. Shareholders play a key role in electing the Board of Directors and shaping company direction.</p>
           </div>
         </div>
 
-      </div>
-    </section><!-- End Alt Services Section -->
-
-    <!-- ======= Alt Services Section 2 ======= -->
-    <section id="alt-services-2" class="alt-services section-bg">
-      <div class="container" data-aos="fade-up">
-
-        <div class="row justify-content-around gy-4">
-          <div class="col-lg-5 d-flex flex-column justify-content-center">
-            <h3>Organizational Chart</h3>
-            
-
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="100">
-              <i class="flex-shrink-0 bi bi-easel"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Strategic Leadership</a></h4>
-                <p>The company is led by the President and CEO, supported by a Senior Executive Vice President ensuring high-level strategic direction and efficient operations.</p>
-              </div>
-            </div><!-- End Icon Box -->
-
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="200">
-              <i class="flex-shrink-0 bi bi-patch-check"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Dedicated Functional Units</a></h4>
-                <p>Key functions are managed by specialized teams:
-                  <ul>
-                    <li><span>Finance Team</span></li>
-                    <li><span>Admin & HR Team</span></li>
-                    <li><span>Business Development Teams</span></li>
-                  </ul>
-                  </p>
-              </div>
-            </div><!-- End Icon Box -->
-
-            <div class="icon-box d-flex position-relative" data-aos="fade-up" data-aos-delay="300">
-              <i class="flex-shrink-0 bi bi-brightness-high"></i>
-              <div>
-                <h4><a href="" class="stretched-link">Robust Project Oversight</a></h4>
-                <p>A dedicated PMO & Strategic Projects office ensures that all projects align with company goals and are executed with excellence.
-
-                </p>
-              </div>
-            </div><!-- End Icon Box -->
-
-           
+        <div class="mb-4 icon-box d-flex align-items-start" data-aos="fade-up" data-aos-delay="200">
+          <i class="flex-shrink-0 bi bi-patch-check fs-2 text-warning me-3"></i>
+          <div>
+            <h5 class="mb-1 fw-bold">Transparent Leadership Oversight</h5>
+            <p class="mb-0">The Board of Directors, elected by shareholders, ensures strategic oversight and long-term value creation. The Chairman leads the board and oversees all committee activities.</p>
           </div>
-
-          <div class="col-lg-6" data-aos="zoom-in" data-aos-delay="100">
-            <div style="
-              position: relative;
-              width: 100%;
-              padding-top: 56.25%; /* 16:9 ratio = 9/16 * 100 */
-              background-image: url('assets/img/alt-services-2.jpg');
-              background-size: cover;
-              background-position: center;
-              background-repeat: no-repeat;
-            "></div>
-          </div>
-
-      </div>
-    </section><!-- End Alt Services Section 2 -->
-
-    <!-- ======= Our Team Section ======= -->
-    <section id="team" class="team">
-      <div class="container" data-aos="fade-up">
-
-        <div class="section-header">
-          <h2>CERTIFICATE AWARDS</h2>
-          
         </div>
 
-        <div class="row gy-5">
+        <div class="icon-box d-flex align-items-start" data-aos="fade-up" data-aos-delay="300">
+          <i class="flex-shrink-0 bi bi-brightness-high fs-2 text-warning me-3"></i>
+          <div>
+            <h5 class="mb-1 fw-bold">Commitment to Ethical Standards</h5>
+            <p class="mb-0">An active Ethics Committee reinforces the company’s dedication to ethical business conduct and compliance.</p>
+          </div>
+        </div>
+      </div>
+    </div>
 
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="100">
-            <div class="text-center member-info">
-              <h4>Command Control and Tactical</h4>
-             
-            </div>
-            <div class="member-img" style="border-radius: 0; overflow: hidden;">
-              <img 
-                src="assets/img/team/team-1.jpg" 
-                alt="" 
-                style="width: 100%; height: auto; display: block; border-radius: 0; object-fit: cover;"
-              >
-            </div>
-          </div><!-- End Team Member -->
+  </div>
+</section>
+<!-- End Governance Structure Section -->
 
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="200">
-            <div class="text-center member-info">
-              <h4>166th Area Support Group</h4>
-              
-            </div>
-            <div class="member-img" style="border-radius: 0; overflow: hidden;">
-              <img 
-                src="assets/img/team/team-2.jpg" 
-                alt="" 
-                style="width: 100%; height: auto; display: block; border-radius: 0; object-fit: cover;"
-              >
-            </div>
-            
-          </div><!-- End Team Member -->
 
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="300">
-            <div class="text-center member-info">
-              <h4>Task Force Mountain</h4>
-              
-            </div>
-            <div class="member-img" style="border-radius: 0; overflow: hidden;">
-              <img 
-                src="assets/img/team/team-3.jpg" 
-                alt="" 
-                style="width: 100%; height: auto; display: block; border-radius: 0; object-fit: cover;"
-              >
-            </div>
-            
-          </div><!-- End Team Member -->
+    <!-- ======= Organizational Chart Section ======= -->
+<section id="organizational-chart" class="py-5 alt-services section-bg">
+  <div class="container" data-aos="fade-up">
 
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="400">
-            <div class="text-center member-info">
-              <h4>16th Engineering Brigade</h4>
-              
-            </div>
-            <div class="member-img" style="border-radius: 0; overflow: hidden;">
-              <img 
-                src="assets/img/team/team-4.jpg" 
-                alt="" 
-                style="width: 100%; height: auto; display: block; border-radius: 0; object-fit: cover;">
-            </div>
-            
-          </div><!-- End Team Member -->
+    <div class="row justify-content-between gy-4 align-items-center">
 
-          <div class="col-lg-4 col-md-6 member" data-aos="fade-up" data-aos-delay="500">
-            <div class="text-center member-info">
-              <h4>BAE</h4>
-             
-              <div class="member-img" style="border-radius: 0; overflow: hidden;">
-                <img 
-                  src="assets/img/team/team-5.jpg" 
-                  alt="" 
-                  style="width: 100%; height: auto; display: block; border-radius: 0; object-fit: cover;">
-              </div>
-            
-          </div><!-- End Team Member -->
+      <!-- Left Side: Text Content -->
+      <div class="col-lg-6 d-flex flex-column justify-content-center">
+        <h3 class="mb-4 fw-bold">Organizational Chart</h3>
 
-          
-
+        <div class="mb-4 icon-box d-flex align-items-start" data-aos="fade-up" data-aos-delay="100">
+          <i class="flex-shrink-0 bi bi-easel fs-2 text-warning me-3"></i>
+          <div>
+            <h5 class="mb-1 fw-bold">Strategic Leadership</h5>
+            <p class="mb-0">The company is led by the President and CEO, supported by a Senior Executive Vice President ensuring high-level strategic direction and efficient operations.</p>
+          </div>
         </div>
 
+        <div class="mb-4 icon-box d-flex align-items-start" data-aos="fade-up" data-aos-delay="200">
+          <i class="flex-shrink-0 bi bi-patch-check fs-2 text-warning me-3"></i>
+          <div>
+            <h5 class="mb-1 fw-bold">Dedicated Functional Units</h5>
+            <ul class="mb-0 ps-3">
+              <li>Finance Team</li>
+              <li>Admin & HR Team</li>
+              <li>Business Development Teams</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="icon-box d-flex align-items-start" data-aos="fade-up" data-aos-delay="300">
+          <i class="flex-shrink-0 bi bi-brightness-high fs-2 text-warning me-3"></i>
+          <div>
+            <h5 class="mb-1 fw-bold">Robust Project Oversight</h5>
+            <p class="mb-0">A dedicated PMO & Strategic Projects office ensures that all projects align with company goals and are executed with excellence.</p>
+          </div>
+        </div>
       </div>
-    </section><!-- End Our Team Section -->
+
+      <!-- Right Side: Organizational Chart Image -->
+      <div class="col-lg-5" data-aos="zoom-in" data-aos-delay="100">
+        <div class="overflow-hidden border rounded shadow-sm org-chart-img">
+          <img src="assets/img/alt-services-2.jpg" alt="SNS Organizational Chart" class="img-fluid w-100 h-100" style="object-fit: contain;">
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- End Organizational Chart Section -->
+
+
+    <!-- ======= Certificate Awards Section ======= -->
+<section id="certificates" class="py-5 team">
+  <div class="container" data-aos="fade-up">
+
+    <div class="mb-5 text-center section-header">
+      <h2 class="fw-bold text-uppercase">Certificate Awards</h2>
+      <hr class="mx-auto" style="width: 100px; border-top: 3px solid #f9b115;">
+    </div>
+
+    <div class="row gy-5 justify-content-center">
+
+      <!-- Certificate 1 -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
+        <div class="text-center border-0 shadow-sm card">
+          <div class="card-body">
+            <h5 class="mb-3 fw-semibold">Command Control and Tactical</h5>
+            <img src="assets/img/team/team-1.jpg" alt="Certificate 1" class="rounded img-fluid">
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificate 2 -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+        <div class="text-center border-0 shadow-sm card">
+          <div class="card-body">
+            <h5 class="mb-3 fw-semibold">166th Area Support Group</h5>
+            <img src="assets/img/team/team-2.jpg" alt="Certificate 2" class="rounded img-fluid">
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificate 3 -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+        <div class="text-center border-0 shadow-sm card">
+          <div class="card-body">
+            <h5 class="mb-3 fw-semibold">Task Force Mountain</h5>
+            <img src="assets/img/team/team-3.jpg" alt="Certificate 3" class="rounded img-fluid">
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificate 4 -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+        <div class="text-center border-0 shadow-sm card">
+          <div class="card-body">
+            <h5 class="mb-3 fw-semibold">16th Engineering Brigade</h5>
+            <img src="assets/img/team/team-4.jpg" alt="Certificate 4" class="rounded img-fluid">
+          </div>
+        </div>
+      </div>
+
+      <!-- Certificate 5 -->
+      <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+        <div class="text-center border-0 shadow-sm card">
+          <div class="card-body">
+            <h5 class="mb-3 fw-semibold">BAE</h5>
+            <img src="assets/img/team/team-5.jpg" alt="Certificate 5" class="rounded img-fluid">
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- End Certificate Awards Section -->
+
 
     <!-- ======= Testimonials Section ======= -->
     <section id="testimonials" class="testimonials section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-header">
-          <h2>Testimonials</h2>
-          <p>Quam sed id excepturi ccusantium dolorem ut quis dolores nisi llum nostrum enim velit qui ut et autem uia
-            reprehenderit sunt deleniti</p>
+          <h2>Client Testimonials</h2>
+          <p>Trusted by defense, government, and international partners — here's what they say about working with Saudi Naval Support Company.</p>
         </div>
 
         <div class="slides-2 swiper">
           <div class="swiper-wrapper">
 
+            <!-- Testimonial 1 -->
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                  <h3>Saul Goodman</h3>
-                  <h4>Ceo &amp; Founder</h4>
+                  <h3>Maj. Thomas Reynolds</h3>
+                  <h4>USAF Contracting Officer</h4>
                   <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                      class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                   </div>
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
-                    Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus.
-                    Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
+                    SNSCL has consistently demonstrated reliability and professionalism in every phase of base support operations. Their team’s adaptability and speed are mission-critical assets.
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
                 </div>
               </div>
             </div><!-- End testimonial item -->
 
+            <!-- Testimonial 2 -->
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                  <h3>Sara Wilsson</h3>
-                  <h4>Designer</h4>
+                  <h3>Sarah El-Khatib</h3>
+                  <h4>Government Procurement Lead</h4>
                   <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                      class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                   </div>
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
-                    Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
-                    quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
+                    From procurement to project execution, Saudi Naval Support delivers unmatched responsiveness and attention to compliance. They’re a trusted vendor in our system.
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
                 </div>
               </div>
             </div><!-- End testimonial item -->
 
+            <!-- Testimonial 3 -->
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                  <h3>Jena Karlis</h3>
-                  <h4>Store Owner</h4>
+                  <h3>Eng. Ahmad Al Saud</h3>
+                  <h4>Defense Infrastructure Consultant</h4>
                   <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                      class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                   </div>
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
-                    Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
-                    tempor labore quem eram duis noster aute amet eram fore quis sint minim.
+                    Their engineering and logistics divisions worked in perfect sync on a complex project timeline. The deliverables exceeded expectations, even in remote areas.
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
                 </div>
               </div>
             </div><!-- End testimonial item -->
 
+            <!-- Testimonial 4 -->
             <div class="swiper-slide">
               <div class="testimonial-wrap">
                 <div class="testimonial-item">
                   <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                  <h3>Matt Brandon</h3>
-                  <h4>Freelancer</h4>
+                  <h3>Stephen Carter</h3>
+                  <h4>KBR Project Manager</h4>
                   <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                      class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
+                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
                   </div>
                   <p>
                     <i class="bi bi-quote quote-icon-left"></i>
-                    Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit
-                    minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                    <i class="bi bi-quote quote-icon-right"></i>
-                  </p>
-                </div>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-wrap">
-                <div class="testimonial-item">
-                  <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                  <h3>John Larson</h3>
-                  <h4>Entrepreneur</h4>
-                  <div class="stars">
-                    <i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i><i
-                      class="bi bi-star-fill"></i><i class="bi bi-star-fill"></i>
-                  </div>
-                  <p>
-                    <i class="bi bi-quote quote-icon-left"></i>
-                    Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim
-                    culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum
-                    quid.
+                    SNSCL supported us with fleet services and manpower that were essential for project continuity. Always responsive, always professional.
                     <i class="bi bi-quote quote-icon-right"></i>
                   </p>
                 </div>
@@ -601,7 +518,8 @@
         </div>
 
       </div>
-    </section><!-- End Testimonials Section -->
+    </section>
+    <!-- End Testimonials Section -->
 
   </main><!-- End #main -->
 
